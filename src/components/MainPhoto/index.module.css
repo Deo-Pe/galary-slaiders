@@ -1,0 +1,31 @@
+.mainPhoto {
+  position: relative;
+  width: 100%;
+  padding-bottom: 50%;
+  background: #97a9b2;
+  overflow: hidden;
+}
+
+.mainPhotoImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  z-index: 2;
+  object-fit: cover;
+}
+.mainPhotoNext,
+.mainPhotoPrev {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  z-index: 1;
+  object-fit: cover;
+}

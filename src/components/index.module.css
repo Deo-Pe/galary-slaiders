@@ -1,0 +1,17 @@
+.webelarGallery {
+  user-select: none;
+}
+.webelarGalleryContainer {
+  margin-bottom: 5px;
+  position: relative;
+}
+.webelarNavigation {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  z-index: 3;
+  transform: translate(-50%, 0);
+}
+.webelarPreviewList {
+  margin: 0 auto;
+}

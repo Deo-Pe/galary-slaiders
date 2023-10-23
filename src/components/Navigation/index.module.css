@@ -1,0 +1,38 @@
+.navigation {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 5px;
+  padding: 5px;
+  display: inline-flex;
+  gap: 5px;
+}
+.navigationBtn {
+  min-width: 45px;
+  display: block;
+  height: 45px;
+  border: none;
+  padding: 0;
+  text-indent: -1234em;
+  background-size: 52% auto;
+  border-radius: 5px;
+  cursor: pointer;
+  transition:
+    opacity 0.3s,
+    background-color 0.3s;
+}
+.navigationBtnRight {
+  background: #003049 url("./images/arrow-right.svg") no-repeat center center;
+}
+.navigationBtnLeft {
+  background: #003049 url("./images/arrow-left.svg") no-repeat center center;
+}
+.navigationBtn:hover {
+  opacity: 0.5;
+}
+.navigationBtn:disabled {
+  background-color: transparent;
+  cursor: default;
+  opacity: 0.5;
+}
+/* .navigationBtn:disabled&:hover { */
+/*   opacity: 0.5; */
+/* } */
